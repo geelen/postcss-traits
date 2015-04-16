@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "babel -o dist/index.js src/index.js",
-    "test": "babel-node test/index.js"
+    "test": "mocha --compilers js:babel/register"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,8 @@
   "homepage": "https://github.com/geelen/postcss-traits",
   "devDependencies": {
     "babelify": "~6.0.2",
-    "babel": "~5.1.10"
+    "babel": "~5.1.10",
+    "mocha": "~2.2.4"
   },
   "dependencies": {
     "postcss": "~4.1.5"
