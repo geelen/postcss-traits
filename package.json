@@ -1,0 +1,25 @@
+{
+  "name": "postcss-traits",
+  "version": "0.1.0",
+  "description": "Plugin for trait-based AMCSS development",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "babel-node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/geelen/postcss-traits.git"
+  },
+  "keywords": [
+    "postcss",
+    "amcss",
+    "traits",
+    "plugin"
+  ],
+  "author": "Glen Maddern",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geelen/postcss-traits/issues"
+  },
+  "homepage": "https://github.com/geelen/postcss-traits"
+}
